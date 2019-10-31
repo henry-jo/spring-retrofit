@@ -46,6 +46,9 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'com.fasterxml.jackson.module:jackson-module-kotlin'
 
+    // logging
+    compile group: 'io.github.microutils', name: 'kotlin-logging', version: '1.6.25'
+
     // retrofit
     compile 'com.squareup.retrofit2:retrofit:2.5.0'
     compile 'com.squareup.retrofit2:retrofit-mock:2.5.0'
