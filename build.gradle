@@ -45,8 +45,13 @@ dependencies {
     implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'com.fasterxml.jackson.module:jackson-module-kotlin'
-    compile group: 'com.squareup.retrofit2', name: 'retrofit', version: '2.3.0'
-    compile group: 'com.squareup.retrofit2', name: 'converter-jackson', version: '2.3.0'
+
+    // retrofit
+    compile 'com.squareup.retrofit2:retrofit:2.5.0'
+    compile 'com.squareup.retrofit2:retrofit-mock:2.5.0'
+    compile 'com.squareup.retrofit2:converter-jackson:2.5.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.8.0'
+
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
     annotationProcessor 'org.projectlombok:lombok'
